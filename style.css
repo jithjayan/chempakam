@@ -1,9 +1,80 @@
 .divtop{
     background-color: antiquewhite;
     margin-top: 0;
-    height: 2em;
+    height: 1.7em;
+    width: 120em;
 }
 .scroll{
     margin-left: 10em;
     
 }
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    width: 120em;
+}
+.navbar-brand{
+    margin-left: 15em;
+}
+.navbar-nav{
+    margin-left: 5em;
+    
+}
+
+.nav-item a{
+    color: rgb(255, 255, 255);
+    font-size:medium;
+}
+.d-flex{
+    margin-right: 7em;
+}
+.input[type=text] {
+    width: 13px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(2, 2, 2);
+    /* background-image: url('searchicon.jpg'); */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+      transition: width 0.4s ease-in-out;
+  }
+  
+ /* .input[type=text]:focus {
+    width: 30%;
+  } */
+   .pic1{
+    width: 120em;
+   }
+
+  .toppic{
+    position: relative;
+  }
+.bannerd{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ccc;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 50px 50px 50px 50px;
+   gap: 10px;
+ 
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 60px 0;
+    font-size: 30px;
+  }
+  .bb1{
+    color: gray;
+    border: 0;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    
+  }
