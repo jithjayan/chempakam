@@ -2,7 +2,7 @@
     background-color: antiquewhite;
     margin-top: 0;
     height: 1.7em;
-    width: 120em;
+    width: 2000px;
 }
 .scroll{
     margin-left: 10em;
@@ -45,36 +45,48 @@
  /* .input[type=text]:focus {
     width: 30%;
   } */
-   .pic1{
+   /* .pic1{
     width: 120em;
-   }
+   } */
 
   .toppic{
     position: relative;
   }
 .bannerd{
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 40%;
     transform: translate(-50%, -50%);
     font-size: 50px;
     color: #ccc;
-    display: grid;
-    grid-template-columns: auto ;
-    grid-template-rows: 50px 50px 50px 50px;
-   gap: 10px;
+    display: flex;
+    flex-direction: column;
  
   }
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 60px 0;
-    font-size: 30px;
-  }
+
   .bb1{
     color: gray;
     border: 0;
     font-size: 20px;
     padding: 5px 20px 5px 20px;
     
+  }
+  .rpic{
+   
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-right: 200px;
+    /* width: 2000px; */
+    /* height: auto; */
+  }
+  .spic{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 200px;
+  }
+  .spic-item{
+
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
   }
