@@ -2,7 +2,7 @@
     background-color: antiquewhite;
     margin-top: 0;
     height: 1.7em;
-    width: 2000px;
+    width: 1920px;
 }
 .scroll{
     margin-left: 10em;
@@ -74,19 +74,20 @@
   .rpic{
    
     margin-top: 50px;
-    margin-left: 700px;
-    margin-right: 200px;
+    /* margin-left: 400px;  */
+    /* margin-right: 200px; */
     /* width: 2000px; */
     /* height: auto; */
   }
-  .spic{
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    column-gap: 200px;
-  }
-  .spic-item{
 
-    padding: 0px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-  }
+.carousel-item{
+  display: flex;
+  flex-direction: column ;
+}
+.d-block{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column ;
+}
